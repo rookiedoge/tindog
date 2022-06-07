@@ -1,0 +1,202 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+
+#title .container-fluid{
+    padding: 5% 10%;
+}
+
+/* dedicated to heading */
+
+.bigheading{
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+
+
+h1,h2,h3{
+    font-family: "Montserrat-black 900",sans-serif;
+}
+
+
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+p{
+    color: #8f8f8f;
+}
+
+/* navbar-brand */
+
+.navbar{
+     padding-bottom: 2.5rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu" sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+/* adds padding to the elements on the navbar except the navbar brand element, also changes color of the elements */
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 18px;
+    color: rgba(252, 246, 246, 0.74);
+}
+
+/* increases the navbar element size */
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat"
+}
+
+/* works on download button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/*works on tittle image*/
+.title-image{
+    width: 25%;
+    height: 90%;
+    margin-right: 30px;
+    margin-top: 30px;
+    transform:rotate(20deg);
+    position: absolute;
+    right: 150px;
+}
+
+@media (max-width: 994px){
+    
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform:rotate(0deg);
+        width: 30%;
+    }
+
+}
+
+/*feature*/
+#features{
+    /* padding: 7% 15%; */
+    background-color:rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    
+}
+.feature-box{
+    padding: 3%;
+}
+
+.feath3{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+/* this target fontawesome objects */
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+    
+    background-color:#ef8172;
+    color: rgb(255, 255, 255);
+
+}
+
+.testimonial-image{
+    width: 30%;
+    border-radius: 50%;
+    margin: 30px;
+    
+}
+
+.testi-sec{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+
+}
+.press-logo{
+    width: 10%;
+}
+
+
+
+.teremanna{
+    padding: 10px;
+}
+
+/* pricing section */
+#pricing{
+    padding: 60px;
+}
+
+.pri-col{
+    padding: 30px 20px;
+}
+
+.pric{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.prich3{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+
+/* targeting the cta section */
+
+#cta{
+    background-color:#ff4c68;
+}
+
+#cta h3{
+    font-size: 30px;
+    font-weight: 950;
+    padding: 0 80px ;
+    color:rgb(255, 255, 255);
+    font-family: "Montserrat-black 900",sans-serif;
+}
+
+/* targets the footer section */
+
+#footer{
+    /* padding-top: 80px;
+    padding-bottom: 40px; */
+    background-color: #fff;
+}
+ .A{
+    margin: 8px;
+}
